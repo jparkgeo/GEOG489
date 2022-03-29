@@ -9,10 +9,11 @@ conda install --channel=conda-forge osmnx --y
 
 ### Install from the scratch.
 
-conda create --name geog489 --y
-conda activate geog489
+conda create --name geog489 --y <br>
+conda activate geog489 <br>
 
-conda install --channel conda-forge geopandas --y
-conda install --channel conda-forge notebook --y
-conda install --channel conda-forge esda --y
-conda install tqdm –-y
+conda install --channel conda-forge geopandas --y <br>
+conda install --channel=conda-forge osmnx --y <br>
+conda install --channel conda-forge notebook --y <br>
+conda install --channel conda-forge esda --y <br>
+conda install tqdm –-y <br>
