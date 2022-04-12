@@ -2,7 +2,7 @@
 
 !svn checkout https://github.com/jparkgeo/GEOG489/trunk/Week10
 
-### If you run this code locally, you need to use the following commands for installing the necessary packages.
+### If you want to run this code locally, you need to use the following commands for installing the necessary packages.
 
 conda install --channel=conda-forge osmnx --y
 
