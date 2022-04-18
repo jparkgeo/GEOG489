@@ -17,6 +17,8 @@ def collect_point_of_interest(search_item, api_key, lng, lat):
     api_address = r"https://maps.googleapis.com/maps/api/place/textsearch/json?"
     api_request = f"{api_address}&location={lat},{lng}&query={search_item}&key={api_key}"
 
+#     print(api_request)
+    
     # Collect POI from Google Maps API
     api_response = requests.get(api_request).json()
 
@@ -240,7 +242,8 @@ def widget():
             print("\n")
 
             loc = geocoder.google(location, key=api_key)
-
+#             print(loc)
+            
             latitude = loc.latlng[0]  # 40.115950
             longitude = loc.latlng[1]  # -88.241591
 
